@@ -1,0 +1,23 @@
+{
+  "name": "todo-app-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.34.0"
+  },
+  "dependencies": {
+    "assemble": "^0.3.83",
+    "grunt": "^0.4.5",
+    "sortablejs": "^1.13.0",
+    "styles": "^0.2.1"
+  }
+}

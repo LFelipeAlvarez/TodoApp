@@ -1,0 +1,31 @@
+:root {
+    //Color-text
+    --bright-blue     : hsl(220, 98%, 61%);
+    --check-background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.theme-dark {
+    --bg-image            : url('../assets/images/bg-mobile-dark.jpg');
+    --bg-image-desktop    : url('../assets/images/bg-desktop-dark.jpg');
+    --theme-icon:url('../assets/images/icon-sun.svg');
+    --main-bg             : hsl(235, 21%, 11%);
+    --todo-bg             : hsl(235, 24%, 19%);
+    --todo-shadow         : hsl(235, 21%, 11%);
+    --font-color-primary  : hsl(234, 39%, 85%);
+    --font-color-secundary: hsl(234, 11%, 52%);
+    --font-color-hover    : hsl(0, 0%, 98%);
+    --check-color         : hsl(237, 14%, 26%);
+}
+
+.theme-light {
+    --bg-image            : url('../assets/images/bg-mobile-light.jpg');
+    --bg-image-desktop    : url('../assets/images/bg-desktop-light.jpg');
+    --theme-icon:url('../assets/images/icon-moon.svg');
+    --main-bg             : hsl(236, 33%, 92%);
+    --todo-bg             : hsl(0, 0%, 98%);
+    --todo-shadow         : hsl(236, 33%, 92%);
+    --font-color-primary  : hsl(235, 19%, 35%);
+    --font-color-secundary: hsl(236, 9%, 61%);
+    --font-color-hover    : hsl(235, 21%, 11%);
+    --check-color         : hsl(233, 11%, 84%);
+}

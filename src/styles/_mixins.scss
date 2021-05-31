@@ -1,0 +1,14 @@
+@mixin pseudoelement($width, $height) {
+    content : '';
+    display : block;
+    position: absolute;
+    width   : $width;
+    height  : $height;
+}
+
+@mixin flexible($jf, $ai, $fd:row) {
+    display        : flex;
+    flex-direction : $fd;
+    justify-content: $jf;
+    align-items    : $ai;
+}

@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-family: JoseFinSans;
+}
+
+img {
+    width    : 100%;
+    max-width: 100%;
+    height   : auto;
+    display  : block;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
