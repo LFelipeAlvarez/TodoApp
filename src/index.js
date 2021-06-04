@@ -150,7 +150,7 @@ const createTemplate = ({ id, todo, state }) => {
                     <div class="chk"></div>
                 </div>
             </div>
-            <p class="list-item__text">${todo}</p>
+            <p class="list-item__text"><span class="list-item__span">${todo}</span></p>
             <div class="list-item__right">
                 <div class="list-item__delete"></div>
             </div>
@@ -213,7 +213,7 @@ document.addEventListener('click', e => {
                 : completeAll();
 
             break;
-        case e.target.matches('.chk'):
+        case e.target.matches('.chk') || e.target.matches('.list-item__span'):
             const $item = e.target.closest('li');
             const state = states[$item.dataset.state];
             checkSingleTask($item);
